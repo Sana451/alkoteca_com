@@ -1,0 +1,7 @@
+services:
+  parser:
+    build:
+      context: .
+    image: alkoteka_com:sana451
+    volumes:
+      - ./alkoteka_com/results:/app/alkoteka_com/results

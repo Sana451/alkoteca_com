@@ -1,0 +1,236 @@
+2025-05-15 17:28:50 [scrapy.utils.log] INFO: Scrapy 2.12.0 started (bot: alkoteka_com)
+2025-05-15 17:28:50 [scrapy.utils.log] INFO: Versions: lxml 5.3.0.0, libxml2 2.12.9, cssselect 1.2.0, parsel 1.9.1, w3lib 2.2.1, Twisted 24.11.0, Python 3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0], pyOpenSSL 24.3.0 (OpenSSL 3.4.0 22 Oct 2024), cryptography 44.0.0, Platform Linux-6.11.0-25-generic-x86_64-with-glibc2.39
+2025-05-15 17:28:50 [scrapy.addons] INFO: Enabled addons:
+[]
+2025-05-15 17:28:50 [py.warnings] WARNING: /home/sana451/PycharmProjects/scrapy_parsers/.venv/lib/python3.12/site-packages/scrapy/utils/request.py:120: ScrapyDeprecationWarning: 'REQUEST_FINGERPRINTER_IMPLEMENTATION' is a deprecated setting.
+It will be removed in a future version of Scrapy.
+  return cls(crawler)
+
+2025-05-15 17:28:50 [scrapy.extensions.telnet] INFO: Telnet Password: 6a7d465703ce3b26
+2025-05-15 17:28:50 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2025-05-15 17:28:50 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'alkoteka_com',
+ 'CONCURRENT_REQUESTS': 1,
+ 'DOWNLOAD_DELAY': 2.5,
+ 'DOWNLOAD_TIMEOUT': 15,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': PosixPath('/home/sana451/PycharmProjects/scrapy_parsers/alkoteka_com/alkoteka_com/results/logs/logs.txt'),
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'alkoteka_com.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['alkoteka_com.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2025-05-15 17:28:50 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-05-15 17:28:50 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-05-15 17:28:50 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2025-05-15 17:28:50 [scrapy.core.engine] INFO: Spider opened
+2025-05-15 17:28:50 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-05-15 17:28:51 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6030
+2025-05-15 17:28:51 [scrapy-playwright] INFO: Starting download handler
+2025-05-15 17:28:51 [scrapy-playwright] INFO: Starting download handler
+2025-05-15 17:28:51 [scrapy-playwright] INFO: Launching 1 startup context(s)
+2025-05-15 17:28:51 [scrapy-playwright] INFO: Launching browser chromium
+2025-05-15 17:28:51 [scrapy-playwright] INFO: Launching 1 startup context(s)
+2025-05-15 17:28:51 [scrapy-playwright] INFO: Launching browser chromium
+2025-05-15 17:28:51 [scrapy-playwright] INFO: Browser chromium launched
+2025-05-15 17:28:51 [scrapy-playwright] INFO: Startup context(s) launched
+2025-05-15 17:28:51 [scrapy-playwright] INFO: Browser chromium launched
+2025-05-15 17:28:51 [scrapy-playwright] INFO: Startup context(s) launched
+2025-05-15 17:28:55 [alkoteka_com_spider] INFO: Start_requests
+
+2025-05-15 17:28:55 [alkoteka_com_spider] INFO: https://alkoteka.com/web-api/v1/product?city_uuid=4a70f9e0-46ae-11e7-83ff-00155d026416&page=1&per_page=500&root_category_slug=shampanskoe-i-igristoe
+2025-05-15 17:28:56 [alkoteka_com_spider] INFO: End Start_requests
+
+2025-05-15 17:28:56 [alkoteka_com_spider] INFO: https://alkoteka.com/web-api/v1/product?city_uuid=4a70f9e0-46ae-11e7-83ff-00155d026416&page=1&per_page=500&root_category_slug=krepkiy-alkogol
+2025-05-15 17:28:56 [alkoteka_com_spider] INFO: Start Parse
+
+2025-05-15 17:28:56 [alkoteka_com_spider] INFO: JSON in response
+
+2025-05-15 17:28:56 [alkoteka_com_spider] INFO: Found 276 in JSON
+2025-05-15 17:28:56 [alkoteka_com_spider] INFO: End Parse
+
+2025-05-15 17:28:59 [alkoteka_com_spider] INFO: End Start_requests
+
+2025-05-15 17:28:59 [alkoteka_com_spider] INFO: https://alkoteka.com/web-api/v1/product?city_uuid=4a70f9e0-46ae-11e7-83ff-00155d026416&page=1&per_page=500&root_category_slug=slaboalkogolnye-napitki-2
+2025-05-15 17:28:59 [alkoteka_com_spider] INFO: Start Parse
+
+2025-05-15 17:28:59 [alkoteka_com_spider] INFO: JSON in response
+
+2025-05-15 17:28:59 [alkoteka_com_spider] INFO: Found 500 in JSON
+2025-05-15 17:28:59 [alkoteka_com_spider] INFO: Go to page number 2
+ for krepkiy-alkogol
+2025-05-15 17:28:59 [alkoteka_com_spider] INFO: End Parse
+
+2025-05-15 17:29:01 [alkoteka_com_spider] INFO: Start Parse
+
+2025-05-15 17:29:01 [alkoteka_com_spider] INFO: JSON in response
+
+2025-05-15 17:29:01 [alkoteka_com_spider] INFO: Found 217 in JSON
+2025-05-15 17:29:01 [alkoteka_com_spider] INFO: End Parse
+
+2025-05-15 17:29:04 [alkoteka_com_spider] INFO: End Start_requests
+
+2025-05-15 17:29:04 [alkoteka_com_spider] INFO: https://alkoteka.com/web-api/v1/product?city_uuid=4a70f9e0-46ae-11e7-83ff-00155d026416&page=2&per_page=500&root_category_slug=enogram
+2025-05-15 17:29:04 [alkoteka_com_spider] INFO: Start Parse
+
+2025-05-15 17:29:04 [alkoteka_com_spider] INFO: JSON in response
+
+2025-05-15 17:29:04 [alkoteka_com_spider] INFO: Found 500 in JSON
+2025-05-15 17:29:04 [alkoteka_com_spider] INFO: Go to page number 3
+ for krepkiy-alkogol
+2025-05-15 17:29:04 [alkoteka_com_spider] INFO: End Parse
+
+2025-05-15 17:29:07 [alkoteka_com_spider] INFO: Start Parse
+
+2025-05-15 17:29:07 [alkoteka_com_spider] INFO: JSON in response
+
+2025-05-15 17:29:07 [alkoteka_com_spider] INFO: Found 114 in JSON
+2025-05-15 17:29:07 [alkoteka_com_spider] INFO: End Parse
+
+2025-05-15 17:29:10 [alkoteka_com_spider] INFO: End Start_requests
+
+2025-05-15 17:29:10 [alkoteka_com_spider] INFO: https://alkoteka.com/web-api/v1/product?city_uuid=4a70f9e0-46ae-11e7-83ff-00155d026416&page=3&per_page=500&root_category_slug=axioma-spirits
+2025-05-15 17:29:10 [alkoteka_com_spider] INFO: Start Parse
+
+2025-05-15 17:29:10 [alkoteka_com_spider] INFO: JSON in response
+
+2025-05-15 17:29:10 [alkoteka_com_spider] INFO: Found 103 in JSON
+2025-05-15 17:29:10 [alkoteka_com_spider] INFO: End Parse
+
+2025-05-15 17:29:14 [alkoteka_com_spider] INFO: End Start_requests
+
+2025-05-15 17:29:14 [alkoteka_com_spider] INFO: https://alkoteka.com/web-api/v1/product?city_uuid=4a70f9e0-46ae-11e7-83ff-00155d026416&page=3&per_page=500&root_category_slug=bezalkogolnye-napitki-1
+2025-05-15 17:29:14 [alkoteka_com_spider] INFO: Start Parse
+
+2025-05-15 17:29:14 [alkoteka_com_spider] INFO: JSON in response
+
+2025-05-15 17:29:14 [alkoteka_com_spider] INFO: Found 0 in JSON
+2025-05-15 17:29:14 [alkoteka_com_spider] INFO: End Parse
+
+2025-05-15 17:29:17 [alkoteka_com_spider] INFO: End Start_requests
+
+2025-05-15 17:29:17 [alkoteka_com_spider] INFO: https://alkoteka.com/web-api/v1/product?city_uuid=4a70f9e0-46ae-11e7-83ff-00155d026416&page=3&per_page=500&root_category_slug=produkty-1
+2025-05-15 17:29:17 [alkoteka_com_spider] INFO: Start Parse
+
+2025-05-15 17:29:17 [alkoteka_com_spider] INFO: JSON in response
+
+2025-05-15 17:29:17 [alkoteka_com_spider] INFO: Found 0 in JSON
+2025-05-15 17:29:17 [alkoteka_com_spider] INFO: End Parse
+
+2025-05-15 17:29:21 [alkoteka_com_spider] INFO: End Start_requests
+
+2025-05-15 17:29:21 [alkoteka_com_spider] INFO: https://alkoteka.com/web-api/v1/product?city_uuid=4a70f9e0-46ae-11e7-83ff-00155d026416&page=3&per_page=500&root_category_slug=aksessuary-2
+2025-05-15 17:29:21 [alkoteka_com_spider] INFO: Start Parse
+
+2025-05-15 17:29:21 [alkoteka_com_spider] INFO: JSON in response
+
+2025-05-15 17:29:21 [alkoteka_com_spider] INFO: Found 0 in JSON
+2025-05-15 17:29:21 [alkoteka_com_spider] INFO: End Parse
+
+2025-05-15 17:29:24 [alkoteka_com_spider] INFO: End Start_requests
+
+2025-05-15 17:29:24 [alkoteka_com_spider] INFO: https://alkoteka.com/web-api/v1/product?city_uuid=4a70f9e0-46ae-11e7-83ff-00155d026416&page=3&per_page=500&root_category_slug=podarki-i-nabory-1
+2025-05-15 17:29:24 [alkoteka_com_spider] INFO: Start Parse
+
+2025-05-15 17:29:24 [alkoteka_com_spider] INFO: JSON in response
+
+2025-05-15 17:29:24 [alkoteka_com_spider] INFO: Found 0 in JSON
+2025-05-15 17:29:24 [alkoteka_com_spider] INFO: End Parse
+
+2025-05-15 17:29:27 [alkoteka_com_spider] INFO: End Start_requests
+
+2025-05-15 17:29:27 [alkoteka_com_spider] INFO: https://alkoteka.com/web-api/v1/product?city_uuid=4a70f9e0-46ae-11e7-83ff-00155d026416&page=3&per_page=500&root_category_slug=skidki
+2025-05-15 17:29:27 [alkoteka_com_spider] INFO: Start Parse
+
+2025-05-15 17:29:27 [alkoteka_com_spider] INFO: JSON in response
+
+2025-05-15 17:29:27 [alkoteka_com_spider] INFO: Found 0 in JSON
+2025-05-15 17:29:27 [alkoteka_com_spider] INFO: End Parse
+
+2025-05-15 17:29:31 [alkoteka_com_spider] INFO: End Start_requests
+
+2025-05-15 17:29:31 [alkoteka_com_spider] INFO: https://alkoteka.com/web-api/v1/product?city_uuid=4a70f9e0-46ae-11e7-83ff-00155d026416&page=3&per_page=500&root_category_slug=vino
+2025-05-15 17:29:31 [alkoteka_com_spider] INFO: Start Parse
+
+2025-05-15 17:29:31 [alkoteka_com_spider] INFO: JSON in response
+
+2025-05-15 17:29:31 [alkoteka_com_spider] INFO: Found 28 in JSON
+2025-05-15 17:29:31 [alkoteka_com_spider] INFO: End Parse
+
+2025-05-15 17:29:34 [alkoteka_com_spider] INFO: End Start_requests
+
+2025-05-15 17:29:34 [alkoteka_com_spider] INFO: Start Parse
+
+2025-05-15 17:29:34 [alkoteka_com_spider] INFO: JSON in response
+
+2025-05-15 17:29:34 [alkoteka_com_spider] INFO: Found 21 in JSON
+2025-05-15 17:29:34 [alkoteka_com_spider] INFO: End Parse
+
+2025-05-15 17:29:34 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-05-15 17:29:34 [alkoteka_com_spider] INFO: Closed alkoteka_com_spider 
+ finished
+2025-05-15 17:29:35 [alkoteka_com.spiders.telegram_tools] INFO: Файл alkoteka_com/results/alkoteka_com..ru.json успешно отправлен.
+2025-05-15 17:29:35 [scrapy.extensions.feedexport] INFO: Stored json feed (1759 items) in: alkoteka_com/results/alkoteka_com..ru.json
+2025-05-15 17:29:37 [alkoteka_com.spiders.telegram_tools] INFO: Файл alkoteka_com/results/alkoteka_com..ru.json успешно отправлен.
+2025-05-15 17:29:37 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 17345,
+ 'downloader/request_count': 13,
+ 'downloader/request_method_count/GET': 13,
+ 'downloader/response_bytes': 440186,
+ 'downloader/response_count': 13,
+ 'downloader/response_status_count/200': 13,
+ 'elapsed_time_seconds': 44.77943,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 5, 15, 14, 29, 35, 577380, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 5645636,
+ 'httpcompression/response_count': 13,
+ 'item_scraped_count': 1759,
+ 'items_per_minute': None,
+ 'log_count/INFO': 101,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 72716288,
+ 'memusage/startup': 72716288,
+ 'playwright/browser_count': 2,
+ 'playwright/context_count': 2,
+ 'playwright/context_count/max_concurrent': 1,
+ 'playwright/context_count/persistent/False': 2,
+ 'playwright/context_count/remote/False': 2,
+ 'playwright/page_count': 0,
+ 'request_depth_max': 2,
+ 'response_received_count': 13,
+ 'responses_per_minute': None,
+ 'scheduler/dequeued': 13,
+ 'scheduler/dequeued/memory': 13,
+ 'scheduler/enqueued': 13,
+ 'scheduler/enqueued/memory': 13,
+ 'start_time': datetime.datetime(2025, 5, 15, 14, 28, 50, 797950, tzinfo=datetime.timezone.utc)}
+2025-05-15 17:29:37 [scrapy.core.engine] INFO: Spider closed (finished)
+2025-05-15 17:29:37 [alkoteka_com.spiders.telegram_tools] INFO: Файл alkoteka_com/results/alkoteka_com..ru.json успешно отправлен.
+2025-05-15 17:29:38 [alkoteka_com.spiders.telegram_tools] INFO: Файл /home/sana451/PycharmProjects/scrapy_parsers/alkoteka_com/alkoteka_com/results/logs/logs.txt успешно отправлен.
+2025-05-15 17:29:38 [scrapy-playwright] INFO: Closing download handler
+2025-05-15 17:29:38 [scrapy-playwright] INFO: Closing browser
+2025-05-15 17:29:38 [scrapy-playwright] INFO: Closing download handler
+2025-05-15 17:29:38 [scrapy-playwright] INFO: Closing browser

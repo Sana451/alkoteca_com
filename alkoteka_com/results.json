@@ -1,0 +1,66 @@
+{
+  "uuid": "075f6062-103c-11ea-8100-00155d2fc707",
+  "name": "Виньето Дирупо Брют",
+  "slug": "vineto-dirupo-bryut_45879",
+  "category_slug": "vino-igristoe",
+  "rate": null,
+  "vendor_code": 45879,
+  "subname": "Vigneto Dirupo Brut",
+  "new": false,
+  "recomended": true,
+  "price": 1930,
+  "prev_price": null,
+  "status": "active",
+  "quantity_total": 1089,
+  "axioma": false,
+  "enogram": true,
+  "has_online_price": false,
+  "quantity": 0,
+  "favorite": false,
+  "image_url": "https://web.alkoteka.com/resize/350_500/product/27/e5/45879_image.png",
+  "product_url": "https://alkoteka.com/product/vino-igristoe/vineto-dirupo-bryut_45879",
+  "action_labels": [],
+  "filter_labels": [
+    {
+      "title": "0.75 Л",
+      "filter": "obem",
+      "type": "range",
+      "values": {
+        "min": 0.75,
+        "max": 0.75
+      }
+    },
+    {
+      "title": "Вино игристое",
+      "filter": "categories",
+      "type": "select",
+      "value": "vino-igristoe"
+    },
+    {
+      "title": "Белое",
+      "filter": "cvet",
+      "type": "select",
+      "value": "beloe"
+    },
+    {
+      "title": "Брют",
+      "filter": "soderzanie-saxara",
+      "type": "select",
+      "value": "bryut"
+    }
+  ],
+  "available": true,
+  "warning": null,
+  "category": {
+    "uuid": "9944ae52-5002-11ef-bba3-3cecef676e4f",
+    "name": "Вино игристое",
+    "background_color": "#ffe6b3",
+    "slug": "vino-igristoe",
+    "parent_uuid": "505436ef-5002-11ef-bba3-3cecef676e4f",
+    "parent": {
+      "uuid": "505436ef-5002-11ef-bba3-3cecef676e4f",
+      "name": "Шампанское и игристое",
+      "slug": "shampanskoe-i-igristoe"
+    }
+  }
+}
