@@ -7,8 +7,8 @@
 ### 1. Клонируйте репозиторий
 
 ```bash
-git clone https://github.com/Sana451/alkoteka_com_scraper.git
-cd alkoteka_com_scraper
+git clone https://github.com/Sana451/alkoteca_com.git
+cd alkoteka_com
 ```
 
 ### 2. Создайте и активируйте виртуальное окружение (опционально, но рекомендуется)
